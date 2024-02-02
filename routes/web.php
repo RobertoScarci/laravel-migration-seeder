@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/trains',[PageController::class, 'index']);
+Route::get('',[PageController::class, 'index']);
